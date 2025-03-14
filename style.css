@@ -1,0 +1,44 @@
+.images {
+    position: relative;
+}
+
+.images .du {
+    position: absolute;
+    bottom: 4px;
+    z-index: 10;
+    right: 5px;
+    background: #242020;
+    opacity: 0.9;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    display: flex;
+    margin: 5px;
+    width: 900px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.images img {
+
+    width: 300px;
+}
+
+.text h2,p {
+    padding: 20;
+
+}
